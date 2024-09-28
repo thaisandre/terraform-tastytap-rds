@@ -12,7 +12,7 @@ on:
 env:
   TF_CLOUD_ORGANIZATION: "tastytap"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
-  TF_WORKSPACE: "terraform-tastytap-infra"
+  TF_WORKSPACE: "terraform-tastytap-rds"
   CONFIG_DIRECTORY: "./"
 
 jobs:
