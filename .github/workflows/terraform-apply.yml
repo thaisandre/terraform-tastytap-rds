@@ -1,4 +1,4 @@
-name: "Terraform Apply" #test
+name: "Terraform Apply"
 
 on:
   workflow_run:
