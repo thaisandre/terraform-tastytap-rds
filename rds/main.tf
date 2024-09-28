@@ -60,7 +60,7 @@ resource "aws_security_group" "tasytap-db-sg" {
 resource "aws_db_subnet_group" "tastytap-rds-subnet-group" {
   name        = "tastytap-rds-subnet-group"
   description = "RDS subnet group for tastytap"
-  subnet_ids  = data.aws_subnets.private.ids
+  subnet_ids  = data.aws_subnets.public.ids
 
   tags = {
     Name = "tastytap-rds-subnet-group"
