@@ -2,11 +2,6 @@ name: "Terraform Plan"
 
 on:
   pull_request:
-    branches:
-      - main
-  push:
-    branches:
-      main
 
 env:
   TF_CLOUD_ORGANIZATION: "tastytap"
@@ -51,6 +46,7 @@ jobs:
       run: echo "${{ toJson(steps.plan-output.outputs) }}"
       
     - name: Update PR
+      if: github.event_name == 'pull_request'
       uses: actions/github-script@v6
       id: plan-comment
       with:
