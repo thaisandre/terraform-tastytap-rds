@@ -21,3 +21,6 @@ Este diagrama descreve a modelagem de dados da aplicação de [Tastytap](https:/
 ## considerações finais
 Esta modelagem de dados atende às necessidades da aplicação, garantindo eficiência e integridade. A estrutura permite fácil manutenção e futuras expansões, se necessário.
 
+## grupo:
+- [Gabriel Ronei de Oliveira Paulo](https://github.com/gabrielronei) - RM355521
+- [Thais Thomazini André](https://github.com/thaisandre) - RM355319
