@@ -13,10 +13,8 @@ Repositório com código terraform da infraestrutura do banco de dados da aplica
 - **comunidade e documentação**: MySQL possui uma vasta comunidade e documentação, facilitando a resolução de problemas e a implementação de boas práticas.
 - **facilidade de integração**: a compatibilidade do MySQL com diversas tecnologias e frameworks (como Spring e Hibernate) simplifica o desenvolvimento da aplicação.
 
-
-Esta documentação descreve a modelagem de dados da aplicação de [Tastytap](https://github.com/gabrielronei/tastytap), que visa gerenciar usuários, pedidos e produtos. O banco de dados foi projetado para garantir a integridade dos dados, a eficiência nas operações e uma estrutura clara para futuras expansões.
-
 ## modelagem das tabelas da aplicação ![Tastytap](https://github.com/gabrielronei/tastytap/)
+Este diagrama descreve a modelagem de dados da aplicação de [Tastytap](https://github.com/gabrielronei/tastytap), que visa gerenciar usuários, pedidos e produtos. O banco de dados foi projetado para garantir a integridade dos dados, a eficiência nas operações e uma estrutura para futuras expansões.
 ![tastytap_db](https://github.com/user-attachments/assets/67a31e07-5a19-4072-9804-8e63b785c978)
 
 
